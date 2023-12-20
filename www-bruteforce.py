@@ -3,10 +3,21 @@
 import requests
 import sys
 
+# FIXME: Input validation
+if len(sys.argv) != 4:
+   print("Invalid argument.")
+   print(" >>$ {} <URL or IP Address> <Path to username wordlist> <Path to password wordlist>".format(sys.argv[0]))
+   exit()
+
 # can define any port for running against web apps
-target = "http://127.0.0.1:5000"
-usernames = ["admin", "user", "test"]
-passwords = "top-100.txt"
+# target = "http://127.0.0.1:5000"
+# usernames = ["admin", "user", "test"]
+# passwords = "top-100.txt"
+
+# FIXME: New variable assignments
+target = sys.argv[1] # Specified target login URL
+usernames = sys.argv[2] # Path to a wordlist of usernames
+passwords = sys.argv[3] # Path to a wordlist of passwords
 
 # used to determine if login was a success or failure
 needle = "welcome back"
