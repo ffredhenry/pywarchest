@@ -1,5 +1,3 @@
-#!/bin/python3
-
 # ---------- Python SHA-256 Password Cracker
 # Takes two arguments from the command line, the hash digest
 # and a path to a wordlist for comparing hashes against it.

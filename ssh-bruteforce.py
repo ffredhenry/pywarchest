@@ -1,5 +1,3 @@
-#!/bin/python3
-
 # ---------- SSH Bruteforce Tool 
 # Intended for insecure systems (no PKA)
 #

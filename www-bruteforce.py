@@ -1,5 +1,4 @@
-#!/bin/python3
-
+# Modules
 import requests
 import sys
 

@@ -1,5 +1,4 @@
-#!/bin/python3
-
+# modules
 import requests
 
 # keeps track of queries performed against sql db
