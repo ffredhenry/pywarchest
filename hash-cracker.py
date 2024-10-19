@@ -10,7 +10,7 @@ import sys
 # ---------- Input validation for command-line arguments
 if len(sys.argv) != 3:
     print("Invalid argument.")
-    print(">> {} <sha256sum> </path/to/wordlist.txt>".format(sys.argv[0]))
+    print(">> {} <sha256 hash> </path/to/wordlist.txt>".format(sys.argv[0]))
     exit()
 
 # ---------- Initializations and declarations
