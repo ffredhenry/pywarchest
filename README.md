@@ -1,8 +1,7 @@
-# pywarchest
+# snakebyte
 Suite of offensive security tools written in Python
 
 hash cracking todo
-- clean up multiple script files
 - add in options for multiple hash types
 - introduce threading capability for improved performance
 
